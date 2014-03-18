@@ -72,3 +72,5 @@ for more information about adding dates and tags to each article.
 	```
 
 1. (Optional) Rename the blog to something other than the default Heroku name. You can do this via the Heroku console after you log in.
+
+http://stark-harbor-8636.herokuapp.com/
