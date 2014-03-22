@@ -1,5 +1,5 @@
 body {
-  background: #eeeeee;
+  background: #d4cecb;
   font-family: "Lustria", "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -231,7 +231,7 @@ div.alert-box {
   margin-bottom: 1.7em;
 }
 .post p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 23px;
 }
 .post-header {

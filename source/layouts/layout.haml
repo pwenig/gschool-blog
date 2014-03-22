@@ -19,7 +19,14 @@
       .twelve.columns
         %h2
           %a{href: "/"}= data.site.title
-        %p=data.site.subtitle
+          %p= data.site.subtitle
+        %a{href: "http://linkedin.com/in/paulwenig/"}
+          %img(src="/images/linkedin.png")
+        %a{href: "https://twitter.com/pwenig"}
+          %img(src="/images/twitter.png")
+        %a{href: "https://github.com/pwenig"}
+          %img(src="/images/github.png")
+
         %hr
     .row
       .eight.columns
@@ -52,7 +59,7 @@
           %li#tagsTab
             %h4 Tags
             %ul.disc
-              - blog.tags.each do |tag, articles|
+              - blog.tags.each do |tag, articles,|
                 %li
                   %a{href: "#{tag_path tag}"}
                     = "#{tag} (#{articles.size})"
