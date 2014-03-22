@@ -1,13 +1,8 @@
 ---
-title: gSchool - Week 1
+title: Just Breathe
 date: 2014-03-18 21:59 UTC
 tags:
 ---
-
-gSchool Blog - Week One
-Paul Wenig
-
-Just Breathe
 
 Nothing quite prepares you for the first week of gSchool. Sure, you can do the Code Academy exercises, read all of the required books (Chris Pine is my hero), and get your personal life in order.
 
