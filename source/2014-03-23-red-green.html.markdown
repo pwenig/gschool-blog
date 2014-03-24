@@ -1,0 +1,25 @@
+---
+title: Red-Green-Refactor
+date: 2014-03-23 23:27 UTC
+---
+
+One of the many benefits of an instructor who wholeheartedly believes in agile programming is having the <a href="http://www.jbrains.ca/permalink/the-four-elements-of-simple-design">four elements of design</a> instilled in our brains from day one.
+
+By not having any previous biases, these elements make perfect sense to me.
+A simple design is one that (1) passes its tests; (2) minimizes duplication; (3) maximizes clarity; (4) has fewer elements.
+
+As new developers, we have spent a lot of time learning RSpec and how to write effective tests,
+which will lead us down the path to actual test-driven-development. Red-Green-Refactor! Red-Green-Refactor!
+This motto is stamped on our foreheads. You write your tests and then you write your code so that it fails the test.
+Once failed, you rewrite your code so it passes. And then you clean it up by refactoring.
+
+<img src="/images/tdd.png" width="180" height="180">
+
+I find great satisfaction when my tests fail.
+After all, it’s a starting point and the code that I’ve written is doing exactly what I had hoped it would do.
+From here, the fun really kicks in and I’m now left with the challenge of writing code that passes.
+
+Here is the first test I’ve written. As simple as it may be, the lesson learned is significant.
+<img src="/images/first_test.png">
+
+
