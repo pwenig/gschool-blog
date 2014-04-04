@@ -1,14 +1,10 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
-<<<<<<< HEAD
   xml.title "Paul Wenig"
-=======
-  xml.title "Paul Wenig's Blog"
->>>>>>> ed1088a49ff7e2a1d72854476e8f726362fc076c
-  xml.subtitle "Blog subtitle"
-  xml.id "http://paulwenig.com/"
-  xml.link "href" => "http://paulwenig.com/"
-  xml.link "href" => "http://paulwenig.com/feed.xml", "rel" => "self"
+  xml.subtitle "Perpetual ramblings of a new web developer"
+  xml.id "http://www.paulwenig.com/"
+  xml.link "href" => "http://www.paulwenig.com/"
+  xml.link "href" => "http://www.paulwenig.com/feed.xml", "rel" => "self"
   xml.updated blog.articles.first.date.to_time.iso8601
   xml.author { xml.name "Paul Wenig" }
 
