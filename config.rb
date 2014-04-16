@@ -103,3 +103,8 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+# Activate google-analytics extension
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-50099510-1'
+end
