@@ -1,5 +1,5 @@
 ---
-title: Good Code Bad Food
+title: From the Frying Pan to the Fire
 date: 2014-04-30 14:18 UTC
 ---
 I was feeling fairly confident coming into our second month at gSchool. We have moved seamlessly from Sinatra to Rails.
